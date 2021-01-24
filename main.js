@@ -15,7 +15,7 @@ window.onload = function() {
         if(parseInt(dateArray[1])>month){
           counter()
         }else{
-          if(parseInt(dateArray[2])>=day){
+          if(parseInt(dateArray[2])>day){
             counter()
             }else{
               alert("use future date")
