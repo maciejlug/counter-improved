@@ -65,7 +65,7 @@ img{
     font-size: 1.5vw;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
     .innerText {
         font-size: 2.5vw;
     }
@@ -88,7 +88,7 @@ img{
   }
   #inputText{
     color: rgb(241, 232, 232);
-    font-size: 4vw;
+    font-size: 8vw;
     display: flex;
     justify-content: center;
     padding: 1%;
@@ -97,7 +97,8 @@ img{
   #input, #count{
     display: flex;
     justify-content: center;
-    padding: 1%;
+    padding: 10%;
+    transform: scale(2.5);
   }
 
   #value{
